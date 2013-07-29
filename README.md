@@ -22,7 +22,7 @@ Deployment
 
 * Create an htpasswd file:
 ```
-> htpasswd -c </path/to/htpasswd>
+> htpasswd -c </path/to/htpasswd> <initial user>
 ```
 
 * Change the file's rights:
