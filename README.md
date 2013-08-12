@@ -14,7 +14,7 @@ Description
 ===========
 
 htpasswd-editor is a simple Perl CGI to manage htpasswd files. It permits to add, list or remove users, 
-it also permits an authentificated user to change it's password. It can be useful for adding basic access 
+it also permits an authentificated user to change his password. It can be useful for adding basic access 
 control management to a static website (ex: documentation generated from Markdown, Rst, Rdoc...).
 
 Deployment
