@@ -17,6 +17,8 @@ htpasswd-editor is a simple Perl CGI to manage htpasswd files. It permits to add
 it also permits an authentificated user to change his password. It can be useful for adding basic access 
 control management to a static website (ex: documentation generated from Markdown, Rst, Rdoc...).
 
+<img src="https://raw.github.com/kakwa/htpasswd-editor/master/images/htpasswd_pl.jpg"/>
+
 Deployment
 ==========
 
