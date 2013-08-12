@@ -132,7 +132,7 @@ sub print_form {
   print $cgi->table({-border=>0},
   $cgi->Tr(
   $cgi->td("Enter the ", $cgi->strong("new"), " user login"),
-  $cgi->td($cgi->password_field( -name      => 'new_user',
+  $cgi->td($cgi->text_field( -name      => 'new_user',
                                  -value     => '',
                                  -size      => 10,
                                  -maxlength => 8))),
@@ -156,7 +156,7 @@ sub print_form {
   print $cgi->table({-border=>0},
   $cgi->Tr(
   $cgi->td("Enter the user's login to ", $cgi->strong("remove")),
-  $cgi->td($cgi->password_field( -name      => 'rm_user',
+  $cgi->td($cgi->text_field( -name      => 'rm_user',
                                  -value     => '',
                                  -size      => 10,
                                  -maxlength => 8)),
