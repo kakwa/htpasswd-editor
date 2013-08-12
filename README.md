@@ -29,7 +29,7 @@ Deployment
 
 * Change the file's rights:
 ```
-> chown apache2|httpd </path/to/htpasswd>
+> chown www-data|apache2|httpd </path/to/htpasswd>
 > chmod 600 </path/to/htpasswd>
 ```
 
