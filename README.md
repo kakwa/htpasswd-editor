@@ -58,3 +58,7 @@ vim </path/to/cgi-dir>/htpasswd.pl
         require valid-user
   </Directory>
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kakwa/htpasswd-editor/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
